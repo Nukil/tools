@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?> 
+<configuration>
+    <property>
+        <name>fs.defaultFS</name>
+        <value>hdfs://Poseidon-158:8020</value>
+    </property>
+    <property>
+        <name>hadoop.tmp.dir</name>
+        <value>file:/home/data01/hadoop/tmp</value>
+	</property>
+	<property>  
+		<name>io.file.buffer.size</name>  
+		<value>131072</value>  
+	</property> 
+</configuration>
+
+
